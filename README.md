@@ -1,8 +1,8 @@
-# C Vamsi Krishna Reddy — Portfolio
+# Uppara Praveen — Portfolio
 
-Personal portfolio website built with React, showcasing my projects, skills, experience, and achievements.
+Personal portfolio website built with React, showcasing my projects, skills, and education.
 
-🌐 **Live Site:** [https://vkr-githu.github.io/portfolio/](https://vkr-githu.github.io/portfolio/)
+🌐 **Live Site:** [https://praveen-gith.github.io/portfolio/](https://praveen-gith.github.io/portfolio/)
 
 ---
 
@@ -23,11 +23,11 @@ Personal portfolio website built with React, showcasing my projects, skills, exp
 ## Features
 
 - Animated hero section with social links (GitHub, LinkedIn, LeetCode, HackerRank)
-- About Me with profile photo and resume link
-- Experience section with internship details
-- GitHub projects fetched dynamically
+- About Me section with bio
+- Projects section with Java projects
+- GitHub repos fetched dynamically
 - Skills with progress bars (hard & soft skills)
-- Achievements & Certifications section
+- Education section
 - Get In Touch with email link
 
 ---
@@ -49,8 +49,8 @@ npm run deploy
 
 ## Connect
 
-- GitHub: [VKR-Githu](https://github.com/VKR-Githu)
-- LinkedIn: [vamsireddy0306](https://www.linkedin.com/in/vamsireddy0306)
-- LeetCode: [chinthavamsikrishnareddy](https://leetcode.com/u/chinthavamsikrishnareddy/)
-- HackerRank: [chinthavamsikri1](https://www.hackerrank.com/profile/chinthavamsikri1)
-- Email: vamsireddy0306@gmail.com
+- GitHub: [Praveen-gitH](https://github.com/Praveen-gitH)
+- LinkedIn: [praveen-uppara-a53173307](https://www.linkedin.com/in/praveen-uppara-a53173307/)
+- LeetCode: [Praveen_uppara](https://leetcode.com/u/Praveen_uppara/)
+- HackerRank: [praveenupraveen1](https://www.hackerrank.com/profile/praveenupraveen1)
+- Email: praveenupraveen20@gmail.com
