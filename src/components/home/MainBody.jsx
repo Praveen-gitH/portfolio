@@ -4,7 +4,7 @@ import Typist from 'react-typist-component';
 import { Jumbotron } from "./migration";
 
 const MainBody = React.forwardRef(
-  ({ gradient, title, message, icons }, ref) => {
+  ({ gradient, title, message, icons, customLinks }, ref) => {
     return (
       <Jumbotron
         fluid
@@ -38,6 +38,21 @@ const MainBody = React.forwardRef(
               </a>
             ))}
           </div>
+          {customLinks && customLinks.length > 0 && (
+            <div className="mb-4 d-flex justify-content-center flex-wrap gap-2">
+              {customLinks.map((link, index) => (
+                <a
+                  key={index}
+                  href={link.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="btn btn-outline-light btn-sm px-3"
+                >
+                  {link.label}
+                </a>
+              ))}
+            </div>
+          )}
           <a
             className="btn btn-outline-light btn-lg "
             href="#aboutme"
