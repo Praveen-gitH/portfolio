@@ -6,33 +6,33 @@ const navBar = {
 // Main Body SECTION
 const mainBody = {
   gradientColors: "#4484ce, #1ad7c0, #ff9b11, #9b59b6, #ff7f7f, #ecf0f1",
-  firstName: "C Vamsi Krishna",
+  firstName: "Uppara",
   middleName: "",
-  lastName: "Reddy",
+  lastName: "Praveen",
   message:
-    "Aspiring Full Stack & Salesforce Developer · Java · Spring Boot · React · Building real-world solutions.",
+    "Entry-Level Software Engineer · Java Backend Developer · AI & ML · Building scalable applications with Core Java & OOP.",
   icons: [
     {
       image: "fa-github",
-      url: "https://github.com/VKR-Githu",
+      url: "https://github.com/Praveen-gitH",
     },
     {
       image: "fa-linkedin",
-      url: "https://www.linkedin.com/in/vamsireddy0306",
+      url: "https://www.linkedin.com/in/praveen-uppara-a53173307/",
     },
     {
       image: "fa-envelope",
-      url: "mailto:vamsireddy0306@gmail.com",
+      url: "mailto:praveenupraveen20@gmail.com",
     },
   ],
   customLinks: [
     {
       label: "LeetCode",
-      url: "https://leetcode.com/u/chinthavamsikrishnareddy/",
+      url: "https://leetcode.com/u/Praveen_uppara/",
     },
     {
       label: "HackerRank",
-      url: "https://www.hackerrank.com/profile/chinthavamsikri1",
+      url: "https://www.hackerrank.com/profile/praveenupraveen1",
     },
   ],
 };
@@ -41,21 +41,21 @@ const mainBody = {
 const about = {
   show: true,
   heading: "About Me",
-  imageLink: require("../editable-stuff/vamsi.png.jpeg"),
+  imageLink: null,
   imageSize: 375,
   message:
-    "I'm Vamsi Krishna Reddy, a B.Tech Computer Science (AIML) student at Mohan Babu University, Tirupati with a CGPA of 8.84. " +
-    "I'm passionate about Full Stack Development and Salesforce, with hands-on experience in Java, Spring Boot, React, and cloud technologies. " +
-    "I interned at Infosys where I built a Smart RideSharing platform, and completed a Salesforce Developer Virtual Internship. " +
-    "Outside of coding, I captain my college basketball team and coordinate events as part of the ACM Student Chapter.",
-  resume: "https://drive.google.com/file/d/1CAViB4ZHfjezM_q85FKfcZVk-qKAAIIF/view?usp=drive_link",
+    "I'm Uppara Praveen, a B.Tech student at Mohan Babu University (2023–2027) with a current CGPA of 8.66, specializing in Artificial Intelligence and Machine Learning. " +
+    "I have strong fundamentals in Java programming with hands-on knowledge of Core Java, OOP principles, and backend development concepts for building scalable applications. " +
+    "I enjoy solving problems through code and have built projects like a Student Management System and a Snake Game using Core Java. " +
+    "I'm actively seeking a Java Backend Developer role to apply my technical skills and grow in a professional software environment.",
+  resume: "",
 };
 
 // PROJECTS SECTION
 const repos = {
   show: true,
   heading: "Recent Projects",
-  gitHubUsername: "VKR-Githu",
+  gitHubUsername: "Praveen-gitH",
   reposLength: 4,
   specificRepos: [],
 };
@@ -78,23 +78,23 @@ const skills = {
   heading: "Skills",
   hardSkills: [
     { name: "Java", value: 85 },
-    { name: "Spring Boot", value: 80 },
-    { name: "JavaScript", value: 75 },
-    { name: "Python", value: 70 },
-    { name: "React / TypeScript", value: 70 },
-    { name: "HTML / CSS", value: 80 },
-    { name: "MongoDB / MySQL", value: 75 },
-    { name: "Salesforce / Apex", value: 72 },
+    { name: "Core Java / OOP", value: 85 },
+    { name: "Data Structures & Algorithms", value: 75 },
+    { name: "Python (Basics)", value: 50 },
+    { name: "Git & GitHub", value: 75 },
+    { name: "Debugging Java Programs", value: 80 },
+    { name: "VS Code / Eclipse", value: 70 },
+    { name: "Software Development Lifecycle", value: 65 },
   ],
   softSkills: [
     { name: "Problem Solving", value: 85 },
-    { name: "Leadership", value: 90 },
-    { name: "Collaboration", value: 88 },
-    { name: "Adaptability", value: 85 },
+    { name: "Logical Thinking", value: 88 },
+    { name: "Adaptability", value: 80 },
+    { name: "Collaboration", value: 78 },
     { name: "Goal-Oriented", value: 82 },
-    { name: "Communication", value: 80 },
-    { name: "Organization", value: 78 },
-    { name: "Creativity", value: 80 },
+    { name: "Communication", value: 75 },
+    { name: "Organization", value: 75 },
+    { name: "Creativity", value: 78 },
   ],
 };
 
@@ -103,32 +103,42 @@ const getInTouch = {
   show: true,
   heading: "Get In Touch",
   message:
-    "I'm currently looking for Full Stack or Salesforce Developer opportunities. If you have a position available, a question, or just want to say hi, feel free to reach out at",
-  email: "vamsireddy0306@gmail.com",
+    "I'm currently looking for Java Backend Developer opportunities. If you have a position available, a question, or just want to say hi, feel free to reach out at",
+  email: "praveenupraveen20@gmail.com",
 };
 
 // EXPERIENCE SECTION
 const experiences = {
   show: true,
-  heading: "Experience",
+  heading: "Projects",
   data: [
     {
-      role: "Infosys Intern",
-      companyLogo: "fa-building",
-      date: "Aug 2025 – Oct 2025",
+      role: "Student Management System – Java",
+      companyLogo: "fa-database",
+      date: "Core Java Project",
       bullets: [
-        "Developed Smart RideSharing platform using Spring Boot and MySQL",
-        "Integrated Spring Security, JWT, Google Maps API, and payment gateways",
-        "Followed Agile practices with testing using JUnit and JMeter",
+        "Developed a console-based Student Management System using Core Java.",
+        "Implemented features to add, update, delete, and view student records.",
+        "Used GitHub for version control and project management.",
       ],
     },
     {
-      role: "Salesforce Developer Virtual Intern",
-      companyLogo: "fa-cloud",
-      date: "May 2025 – Jul 2025",
+      role: "Snake Game – Java",
+      companyLogo: "fa-gamepad",
+      date: "Core Java Project",
       bullets: [
-        "Developed custom Salesforce applications and Apex workflows",
-        "Improved system automation and user experience",
+        "Built a classic Snake game using Core Java and OOP concepts.",
+        "Implemented game logic, keyboard controls, collision detection, and scoring system.",
+        "Strengthened understanding of event handling and game loops.",
+      ],
+    },
+    {
+      role: "Java Practice Programs",
+      companyLogo: "fa-code",
+      date: "Ongoing",
+      bullets: [
+        "Developed multiple Java programs focusing on arrays, strings, loops, and methods.",
+        "Improved logical thinking and problem-solving skills through regular practice.",
       ],
     },
   ],
@@ -137,42 +147,22 @@ const experiences = {
 // ACHIEVEMENTS & CERTIFICATIONS SECTION
 const achievements = {
   show: true,
-  heading: "Achievements & Certifications",
+  heading: "Education",
   data: [
     {
-      title: "SYNAPSE 2K25",
-      description: "Ranked 11th among 200+ teams in a national hackathon by Hubexes.",
-      icon: "fa-trophy",
+      title: "B.Tech – Mohan Babu University (2023–2027)",
+      description: "Pursuing B.Tech in AI & ML with a current CGPA of 8.66.",
+      icon: "fa-graduation-cap",
     },
     {
-      title: "HackerRank",
-      description: "Earned a Problem Solving badge in Java.",
-      icon: "fa-code",
+      title: "Intermediate – Narayana Jr College (2021–2023)",
+      description: "Completed Intermediate with 89% from Narayana Jr College.",
+      icon: "fa-book",
     },
     {
-      title: "GDG-Tech24",
-      description: "Performed outstandingly in Tech24 organized by GDG-MBU, Tirupati.",
+      title: "Class X – Narayana Group of School (2020–2021)",
+      description: "Scored 100% in Class X from Narayana Group of School.",
       icon: "fa-star",
-    },
-    {
-      title: "Infosys SpringBoard 6.0",
-      description: "Certification in software development fundamentals.",
-      icon: "fa-certificate",
-    },
-    {
-      title: "Salesforce Developer with Agentblazer Champion",
-      description: "Certified Salesforce Developer with Agentblazer Champion credential.",
-      icon: "fa-certificate",
-    },
-    {
-      title: "Develop GenAI Apps with Gemini and Streamlit",
-      description: "Google certification for building GenAI applications.",
-      icon: "fa-certificate",
-    },
-    {
-      title: "Prompt Design in Vertex AI",
-      description: "Google certification for prompt engineering in Vertex AI.",
-      icon: "fa-certificate",
     },
   ],
 };
